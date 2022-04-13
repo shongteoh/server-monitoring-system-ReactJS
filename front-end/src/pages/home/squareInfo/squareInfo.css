@@ -1,0 +1,60 @@
+.squareInfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30%;
+ 
+}
+
+.squareInfoItem {
+  flex: 1;
+  margin: 0px 10px 10px 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #185853;
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+   height: 270px;
+}
+
+
+
+.squareInfoTitle {
+  font-size: 20px;
+  color: azure;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.squareInfoContainer {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.squareInfoData {
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.squareInfoSubHeading {
+  font-size: 15px;
+  color: lightgrey;
+
+}
+
+.CircularProgressbar {
+  width: 100px;
+  height: 100px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  stroke: beige;
+  fill: aquamarine;
+}
+
+.ProgressBar{
+  padding:20px;
+}
