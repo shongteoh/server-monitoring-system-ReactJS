@@ -1,0 +1,116 @@
+.topbar {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(40, 218, 218);
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+}
+
+.topbarWrapper {
+  height: 100%;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.title:hover,
+.title {
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(10, 34, 74);
+   text-decoration: none;
+   margin-left: 20px;
+}
+
+
+
+.topRight {
+  display: flex;
+  align-items: center;
+  
+}
+
+.topbarIconContainer {
+  position: relative;
+  cursor: pointer;
+  margin-right: 10px;
+  color: #555;
+  
+  
+}
+.topAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+body{
+    margin:0;
+}
+
+
+.nav-menu {
+  background-color: #11a6d0;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 0px 0px -8px;
+  list-style: none;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #0d0845;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px 26px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: #11a6d0;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: #11a6d0;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+span {
+  margin-left: 16px;
+}
+
